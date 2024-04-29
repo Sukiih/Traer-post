@@ -9,11 +9,12 @@ async function getPosts (){
         data.forEach(element => {
             postData.innerHTML +=
             ` <div>
-               <li> userId: ${element.userId}</li>
-               <li>id: ${element.id}</li>
-               <li>title: ${element.title}</li>
-               <li>body: ${element.body}</li>
-               </div>`
+               <li> 
+               userId: ${element.userId}<br>
+               id: ${element.id}<br>
+               title: ${element.title}<br>
+               body: ${element.body}</li>
+               <br></div>`
             }); 
 
             return data;

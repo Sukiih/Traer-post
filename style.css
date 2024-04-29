@@ -1,0 +1,8 @@
+#post-data li {
+    list-style-type:square;
+  
+} 
+
+#post-data li::marker {
+    color: blueviolet;
+}
